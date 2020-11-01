@@ -1,0 +1,364 @@
+@font-face {
+  font-family: "Akkurat Bold";
+  src: url("fonts/AkkStdBd.otf") format("opentype");
+}
+@font-face {
+  font-family: "Akkurat Light";
+  src: url("fonts/AkkStdLg.otf") format("opentype");
+}
+@font-face {
+  font-family: "Akkurat Bold Italic";
+  src: url("fonts/AkkStdBdIt.otf") format("opentype");
+}
+
+
+/* Fonts */
+
+body  {
+  font-family: "Akkurat Light";
+  color:rgba(32, 61, 88, 0.85);
+  background-color: rgba(248 , 250, 253, 1);
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: "Akkurat Bold";
+  font-size: 50px;
+  line-height: 64px;
+  margin: 0;
+  color:rgba(32, 61, 88, 0.85);
+}
+
+h2 {
+  font-family: "Akkurat Bold";
+  font-size: 40px;
+  line-height: 47px;
+  margin: 0;
+  color:rgba(32, 61, 88, 0.85);
+}
+
+h3 {
+  font-family: "Akkurat Bold";
+  font-size: 12px;
+  color:rgba(32, 61, 88, 0.85);
+}
+
+h4 {
+  font-family: "Akkurat Bold Italic";
+  font-size: 22px;
+  color:rgba(32, 61, 88, 0.85);
+}
+
+.info-card p {
+  font-size: 12px;
+}
+
+.header-title {
+  font-family: rooney-sans, sans-serif !important;
+  font-size: 20px;
+}
+
+i {
+  color: #A3ADFF ;
+  font-size: 20px;
+}
+
+.value {
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.value-icon {
+  font-size: 45px;
+}
+
+
+/* Layout Elements */
+
+#header {
+  background-color: rgba(248 , 250, 253,  1);
+  top: 0;
+  width: 100vw;
+  max-width: 1000px;
+}
+.header-title {
+  margin: 2rem;
+}
+
+#quote-section {
+  text-align: center;
+  margin: 10rem;
+  background-color: white;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+}
+
+.flex-grid {
+  display: flex;
+  margin: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section {
+  margin-top: 7rem !important;
+  margin-bottom: 10rem !important;
+}
+
+.value-flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.value-detail {
+  min-width: 20%;
+}
+
+.footer {
+  background: #A3ADFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: white;
+}
+
+
+/* Images */
+
+.main-img {
+  width: 45vw;
+  margin: 0 6rem;
+  max-width: 550px;
+}
+
+.cycle {
+  width: 300px;
+}
+
+.form-img {
+  width: 30vw;
+}
+
+
+/* Cards */
+.info-card {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+  display: flex;
+}
+
+.info-card .info {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.info-cards {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-left: 3rem;
+
+}
+
+/* Buttons */
+
+.signup-button {
+  background-color: #A3ADFF;
+  color: white;
+  text-align: center;
+  padding: 0.7em 0.5em 0.7em 0.5em;
+  width: 160px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px rgba(32, 61, 88, 0.25);
+  margin-top: 1rem;
+}
+
+.signup-button:hover {
+  transform: scale(1.05);
+}
+
+a:hover {
+  text-decoration: none; 
+}
+
+/* Mailchimp */
+
+#mailchimp {
+  background: transparent;
+  color: #3D6392;
+  padding: 20px 15px;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+#mailchimp input {
+    border: medium none;
+    color: rgba(101, 108, 161, 0.43);
+    font-family: "Akkurat Light";
+    font-size: 14px;
+    margin-bottom: 35px;
+    padding: 12px 10px;
+    width: 300px;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+    -moz-box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+    -webkit-box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25);
+  }
+    #mailchimp input.email { background: #fff }
+    #mailchimp input.name { background: #fff}
+    #mailchimp input[type="submit"] {
+      background: #A3ADFF;
+      color: #fff;
+      cursor: pointer;
+      font-size: 15px;
+      width: 35%;
+      padding: 8px 0;
+       border-radius: 20px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      box-shadow: 0px 4px 20px rgba(101, 108, 162, 0.25) !important;
+      transition: 0.3s;
+
+    }
+      #mailchimp input[type="submit"]:hover { box-shadow: 0px 5px 20px rgba(101, 108, 162, 0.45); transform: scale(1.05);}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+
+  /* Layout */
+
+  body, html {
+    overflow-x: hidden;
+  }
+
+  .info-cards {
+    display: block;
+    margin: auto;
+  }
+
+  .info-card {
+    margin: 1.5rem auto;
+  }
+
+  #quote-section {
+    margin: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #header{
+    position: static;
+  }
+
+  .flex-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .section {
+    margin-top: 5rem !important;
+    margin-bottom: 7rem !important;
+  }
+
+  #value-section {
+    margin: 4rem !important;
+  }
+
+
+  .value-flex {
+    display: block;
+    margin-top: 1rem !important;
+  }
+
+  /* Images */
+
+  .main-img {
+    width: 70%;
+    margin: 4rem auto !important;
+  }
+
+  .cycle {
+    width: 80%;
+  }
+
+  .form-img {
+    width: 90%;
+  }
+
+  .value-icon {
+    font-size: 45px;
+  }
+
+  /* Contact Form */
+
+  #mailchimp input[type="submit"] {
+    width: 40%;
+  }
+  #mailchimp input {
+    width: 90%;
+  }
+
+}
+
+/* Tablet View*/
+
+@media only screen and (max-width: 1000px) {
+  .cycle {
+    display: none; 
+  }
+
+  .flex-grid {
+    display: block;
+    margin: 0;
+  }
+
+  .cta {
+    text-align: center; 
+  }
+
+  .signup-button {
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
